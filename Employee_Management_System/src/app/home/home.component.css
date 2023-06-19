@@ -1,0 +1,23 @@
+.title{
+   
+     text-align: center;
+    top:47%;
+    left :50%;
+    height:40%
+}
+.title h1{
+    color:black;
+    font-size:70px;
+
+}
+header{
+
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/011/180/152/small/shopping-cart-with-abstract-blur-supermarket-discount-store-aisle-and-pet-food-product-shelves-interior-defocused-background-photo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-position: center;
+    background-size:cover;
+    height:100vh;
+    min-height:100px;
+}
+

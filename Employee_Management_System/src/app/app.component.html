@@ -1,0 +1,82 @@
+<!-- `<div class="main">
+
+
+<app-header></app-header>
+
+ 
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a routerLink="home" routerLinkActive="active" class="nav-link">Home</a>
+    </li>
+      <li class="nav-item">
+          <a routerLink="employees" routerLinkActive="active" class="nav-link">customer List</a>
+        </li>
+        <li class="nav-item">
+
+          <a routerLink="create-employee" routerLinkActive="active" class="nav-link">Add customer details</a>
+        </li>
+
+  </ul>
+
+</nav>
+
+<h1 class="text-center">{{title}}</h1>
+<div class="container">
+<router-outlet></router-outlet>
+</div>
+
+<footer class="footer">
+  <div class="container">
+      <span>Terms&Conditions</span>
+
+  </div>
+
+</footer> 
+</div> -->
+ 
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+ 
+  <!-- <a class="navbar-brand" href="#">basicMart</a> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="home" routerLinkActive="active" href="#home" >Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="groceries" routerLinkActive="active" href="#groceries">Groceries</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="aboutus" routerLinkActive="active" href="#aboutus">AboutUs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="contact" routerLinkActive="active" href="#contact">Contact</a>
+      </li>
+      <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" routerLink="empl" href="#empl" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Employees
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#" >Add Employees</a>
+          <a class="dropdown-item"     >Employee List</a>
+          <a class="dropdown-item"   >Employee Dtails</a>
+          
+        </div>
+      </li> -->
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" routerLink="empl" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Employees
+        </button>
+        <ul class="dropdown-menu bg-dark">
+          <li><a class="dropdown-item" routerLink="create-employee" href="#">Add Employees</a></li>
+          <li><a class="dropdown-item" routerLink="employees" href="#">Employee list</a></li>
+          <li><a class="dropdown-item" routerLink="employee-details" href="#">Employee Details</a></li>
+        </ul>
+      </div>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>

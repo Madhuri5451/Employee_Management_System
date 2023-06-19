@@ -1,0 +1,23 @@
+.th
+{
+    position: absolute;
+    text-align: center;
+    padding-top: 8%;
+    font-size: large;
+    padding-left:45%;
+
+
+}
+h3{
+    padding-top: 2%;
+}
+header{
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRRa3iiJe7Zg6EMkaQTh0yumFI5FepTb-6vw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-position: center;
+    background-size:cover;
+    height:100vh;
+    min-height:100px;
+}

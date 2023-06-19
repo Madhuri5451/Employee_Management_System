@@ -1,0 +1,10 @@
+header{
+
+    background-image: url("https://www.greenqueen.com.hk/wp-content/uploads/2021/07/Handful-of-Big-Food-Firms-Control-80-of-Your-Groceries.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-position: center;
+    background-size:cover;
+    height:100vh;
+    min-height:100px;
+}

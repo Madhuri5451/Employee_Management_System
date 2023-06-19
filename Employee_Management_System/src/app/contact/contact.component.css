@@ -1,0 +1,16 @@
+header{
+
+    background-image: url("https://plus.unsplash.com/premium_photo-1658506646178-e4ef5810361b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FsbCUyMGNlbnRlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-position: center;
+    background-size:cover;
+    height:100vh;
+    min-height:100px;
+}
+.cls{
+    padding-top: 2%;
+    padding-left: 4%;
+    
+    width: 20%;
+}
